@@ -1,26 +1,29 @@
 {
-    "name": "maxperrimond/php-xid",
-    "description": "Globally Unique ID Generator",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "maxime.perrimond",
-            "email": "max.perrimond@gmail.com"
-        }
-    ],
-    "require": {
-        "ext-mongodb": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "MP\\XID\\": "lib/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": { "Tests\\": "tests/" }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.4"
+  "name": "maxperrimond/php-xid",
+  "description": "Globally Unique ID Generator",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "maxime.perrimond",
+      "email": "max.perrimond@gmail.com"
     }
+  ],
+  "require": {
+    "ext-mongodb": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MP\\XID\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  }
 }
