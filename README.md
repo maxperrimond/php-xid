@@ -4,7 +4,7 @@
 
 ## Install
 
-    composer install mper/xid
+    composer install maxperrimond/xid
 
 ## Usage
 
